@@ -1,0 +1,8 @@
+def has_33(a):
+    for i in range(len(a)-1):
+        if a[i:i+2] == [3,3]:
+            return True
+    return False
+print(has_33([1,3,3]))
+print(has_33([1, 3, 1, 3]))
+print(has_33([3, 1, 3]))
