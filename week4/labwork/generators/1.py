@@ -1,5 +1,10 @@
-def square(N):
-    for i in range(N):
-        print(i**2)
-a=int(input())
-square(a)
+def squares(n):
+    a=1
+    while a<=n:
+        yield a*a
+        a+=1
+ 
+n=int(input())
+for i in squares(n):
+    print(i)
+
