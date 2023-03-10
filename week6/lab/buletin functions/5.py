@@ -1,0 +1,6 @@
+x = (True, True, True)
+y= (True, False, True)
+result = all(x)
+print(result)
+result = all(y)
+print(result)
